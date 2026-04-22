@@ -4,7 +4,7 @@ conn = mysql.connector.connect(host="localhost", user="root", passwd="1234", dat
 
 mycursor = conn.cursor()
 
-mycursor.execute("insert into employee (name, EmployeeID, Salary)values(%s,%s,%s)", ('Ryan', 'E006', 65000.00))
+mycursor.execute("insert into employee (name, EmployeeID, Salary)values(%s,%s,%s)", ('Cloudy', 'E007', 69000.00))
 conn.commit()
 
 
